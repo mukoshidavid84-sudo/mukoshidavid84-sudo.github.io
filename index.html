@@ -38,6 +38,16 @@
             border-bottom: 1px solid var(--card-border);
             padding-bottom: 2rem;
         }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            box-shadow: 0 4px 14px rgba(56, 189, 248, 0.25);
+            margin-bottom: 1.25rem;
+            display: block;
+        }
         h1 { font-size: 2.5rem; color: #fff; margin-bottom: 0.5rem; }
         .tagline { color: var(--primary); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
         .sub-tagline { color: var(--muted); font-size: 1rem; }
@@ -82,6 +92,7 @@
       "name": "David Mukoshi",
       "givenName": "David",
       "familyName": "Mukoshi",
+      "image": "https://mukoshidavid84-sudo.github.io/profile.jpg",
       "url": "https://mukoshidavid84-sudo.github.io/",
       "jobTitle": "Director at OYSEC Academy & Cybersecurity Specialist",
       "worksFor": {
@@ -122,6 +133,7 @@
 <body>
     <div class="container">
         <header>
+            <img src="profile.jpg" alt="David Mukoshi" class="profile-pic">
             <h1>David Mukoshi</h1>
             <p class="tagline">Director, OYSEC Academy | Cybersecurity Specialist | Community Leader</p>
             <p class="sub-tagline">MCA Aspirant, East Butsotso Ward (2027) &bull; Kakamega & Nairobi, Kenya</p>
