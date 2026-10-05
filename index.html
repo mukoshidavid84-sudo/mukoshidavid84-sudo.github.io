@@ -50,7 +50,28 @@
         }
         h1 { font-size: 2.5rem; color: #fff; margin-bottom: 0.5rem; }
         .tagline { color: var(--primary); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
-        .sub-tagline { color: var(--muted); font-size: 1rem; }
+        .sub-tagline { color: var(--muted); font-size: 1rem; margin-bottom: 1rem; }
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+        .social-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border: 1px solid var(--card-border);
+            background: var(--surface);
+            padding: 0.35rem 0.85rem;
+            border-radius: 6px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .social-link:hover {
+            background: var(--surface-hover);
+            border-color: var(--primary);
+        }
         section { margin-bottom: 2.5rem; }
         h2 { font-size: 1.4rem; color: #fff; margin-bottom: 1.25rem; border-left: 4px solid var(--primary); padding-left: 0.75rem; }
         p { color: var(--muted); font-size: 1.05rem; margin-bottom: 1rem; }
@@ -125,7 +146,9 @@
       "description": "David Mukoshi is a dedicated professional blending technological expertise, scientific background, and public leadership. Currently serving as the Director of OYSEC Academy under OYELLS Technologies, he focuses on cybersecurity education, operations, and youth empowerment, and is an MCA aspirant for East Butsotso Ward ahead of the 2027 elections.",
       "sameAs": [
         "https://www.wikidata.org/wiki/Q141642105",
-        "https://github.com/mukoshidavid84-sudo"
+        "https://github.com/mukoshidavid84-sudo",
+        "https://www.linkedin.com/in/david-mukoshi",
+        "https://x.com/Litmuspaper10"
       ]
     }
     </script>
@@ -137,6 +160,12 @@
             <h1>David Mukoshi</h1>
             <p class="tagline">Director, OYSEC Academy | Cybersecurity Specialist | Community Leader</p>
             <p class="sub-tagline">MCA Aspirant, East Butsotso Ward (2027) &bull; Kakamega & Nairobi, Kenya</p>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/david-mukoshi" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                <a href="https://x.com/Litmuspaper10" target="_blank" rel="noopener noreferrer" class="social-link">X (Twitter)</a>
+                <a href="https://github.com/mukoshidavid84-sudo" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+            </div>
         </header>
 
         <section>
